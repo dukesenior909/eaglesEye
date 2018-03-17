@@ -1,0 +1,32 @@
+.team .col-lg-4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team h2 {
+    color: rgba(50,50,50,0.8);
+}
+
+.team p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.divider{
+    margin: 40px 0;
+    
+}
+.mickey{
+    padding-left: 50px;
+    text-align: center;
+    padding-top: 80px;
+}
+.content{
+    margin-bottom: 30px;
+}
+
+footer{
+    margin: 0 110px;
+    
+}
+
