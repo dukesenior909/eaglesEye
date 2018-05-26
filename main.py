@@ -13,7 +13,7 @@ def ips():
 	args=vars(ap.parse_args())
 	flag=1
 	cnt=0
-	imgResp=urllib.request.urlopen(url)
+	imgResp=urllib.request.urlopen(url) #extracts images from web server
 	imgNp=np.array(bytearray(imgResp.read()),dtype=np.uint8)
 	first=cv2.imdecode(imgNp,-1)
 
